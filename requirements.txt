@@ -1,0 +1,11 @@
+tqdm
+polars
+pandas
+pyarrow
+aiohttp
+aiolimiter
+python-dateutil
+
+# Optional dependencies based on platform
+uvloop; sys_platform != 'win32' 
+winloop; sys_platform == 'win32'  

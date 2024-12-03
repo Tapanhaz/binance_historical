@@ -1,8 +1,0 @@
-aiohttp
-tqdm
-polars
-aiolimiter
-pandas
-pyarrow
-python-dateutil
-uvloop

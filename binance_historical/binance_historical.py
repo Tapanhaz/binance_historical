@@ -771,7 +771,8 @@ class BinanceHistorical:
         matches = re.findall(pattern, response)
         if filter_checksums:
             matches = list(filterfalse(lambda item: item.endswith(".CHECKSUM"), matches))
-        print(matches)
+        #print(matches)
+        return matches
     
     def get_pairs(
             self,
